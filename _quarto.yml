@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "赵甜甜的个人主页"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首页
+      - href: about.qmd
+        text: 关于
+
+format:
+  html:
+    theme: minty
+    mainfont: "PingFang SC"  # 设置中文苹方字体，会让页面更精致
+    fontsize: 1.1em
+    toc: true
+
+
